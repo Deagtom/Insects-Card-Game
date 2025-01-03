@@ -56,6 +56,7 @@ MonoBehaviour:
       - rid: 7752762179098771476
       - rid: 2930714577733419019
       - rid: 2930714561565687809
+      - rid: 8484383756355633342
     m_RuntimeSettings:
       m_List:
       - rid: 7752762179098771456
@@ -145,6 +146,7 @@ MonoBehaviour:
         m_CopyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
         m_CameraMotionVector: {fileID: 4800000, guid: c56b7e0d4c7cb484e959caeeedae9bbf, type: 3}
         m_StencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+        m_ClusterDeferred: {fileID: 4800000, guid: 222cce62363a44a380c36bf03b392608, type: 3}
         m_StencilDitherMaskSeedPS: {fileID: 4800000, guid: 8c3ee818f2efa514c889881ccb2e95a2, type: 3}
         m_DBufferClear: {fileID: 4800000, guid: f056d8bd2a1c7e44e9729144b4c70395, type: 3}
     - rid: 2930714577733419011
@@ -292,3 +294,8 @@ MonoBehaviour:
         m_ExportShaderVariants: 1
         m_ShaderVariantLogLevel: 0
         m_StripRuntimeDebugShaders: 1
+    - rid: 8484383756355633342
+      type: {class: LightmapSamplingSettings, ns: UnityEngine.Rendering, asm: Unity.RenderPipelines.Core.Runtime}
+      data:
+        m_Version: 1
+        m_UseBicubicLightmapSampling: 0

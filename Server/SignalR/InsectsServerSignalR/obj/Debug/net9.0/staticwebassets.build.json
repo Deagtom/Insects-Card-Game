@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "au5ebFzX11RmHE08WNngJNtZQo7qCIGHCIrPidVf4SU=",
+  "Source": "InsectsServerSignalR",
+  "BasePath": "_content/InsectsServerSignalR",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
